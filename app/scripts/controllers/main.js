@@ -1,10 +1,6 @@
 'use strict';
 
-angular.module('goindiAngularApp')
+angular.module('goIndi')
   .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+    $scope.goIndi = "goIndi";
   });

@@ -5,6 +5,9 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
+var routes = require('./routes/index');
+var users = require('./routes/users');
+
 var app = express();
 
 app.use(favicon());
@@ -15,6 +18,8 @@ app.use(cookieParser("goindi angular cookie"));
 
 app.use(require('less-middleware')(path.join(__dirname, 'app')));
 app.use(express.static(path.join(__dirname, 'app')));
+
+app.use('/users', users);
 
 /// catch 404 and forward to error handler
 app.use(function(req, res, next) {

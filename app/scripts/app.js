@@ -1,11 +1,12 @@
 'use strict';
 
 angular
-  .module('goindiAngularApp', [
+  .module('goIndi', [
     'ngCookies',
     'ngResource',
     'ngSanitize',
-    'ngRoute'
+    'ngRoute',
+    'goIndi.sidebarTree'
   ])
   .config(function ($routeProvider) {
     $routeProvider

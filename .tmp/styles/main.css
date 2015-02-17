@@ -1,7 +1,7 @@
 /* Space out content a bit */
 
 body {
-  padding-top: 20px;
+  /*padding-top: 20px;*/
   padding-bottom: 20px;
 }
 
@@ -40,9 +40,7 @@ body {
 /* Customize container */
 
 @media (min-width: 768px) {
-  .container {
-    max-width: 730px;
-  }
+
 }
 
 .container-narrow > hr {
