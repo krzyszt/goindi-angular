@@ -6,7 +6,8 @@ angular
     'ngResource',
     'ngSanitize',
     'ngRoute',
-    'goIndi.sidebarTree'
+    'goIndi.sidebarTree',
+    'goIndi.searchForm'
   ])
   .config(function ($routeProvider) {
     $routeProvider
