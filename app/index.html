@@ -25,7 +25,17 @@
 
     <!-- Add your site or application content here -->
     <div ng-include="'views/nav.tpl.html'"></div>
-    <div class="container" ng-view=""></div>
+    <!--<search-form></search-form>-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-2">
+                <sidebar-tree></sidebar-tree>
+            </div>
+            <div class="col-sm-10" ng-view="">
+        
+            </div>
+        </div>
+    </div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
      <script>

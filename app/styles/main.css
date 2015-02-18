@@ -1,84 +1,29 @@
-/* Space out content a bit */
-body {
-  /*padding-top: 20px;*/
-  padding-bottom: 20px;
-}
+/* GoIndi specific CSS */
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-/* Custom page header */
-.header {
-  border-bottom: 1px solid #e5e5e5;
-}
-/* Make the masthead heading the same height as the navigation */
-.header h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 40px;
-  padding-bottom: 19px;
-}
-
-/* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
-}
-
-/* Customize container */
-@media (min-width: 768px) {
-/*  .container {
-    max-width: 730px;
-  }*/
-}
-.container-narrow > hr {
-  margin: 30px 0;
-}
-
-/* Main marketing message and sign up button */
-.jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
-}
-.jumbotron .btn {
-  font-size: 21px;
-  padding: 14px 24px;
-}
-
-/* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
-}
-.marketing p + h4 {
-  margin-top: 28px;
-}
-
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
+.navbar {
+    margin: 0;
     padding-left: 0;
     padding-right: 0;
-  }
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 30px;
-  }
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
-  }
+    border-width: 0;
+    border-radius: 0;
+    background: #438eb9;
+    box-shadow: none;
+    color: #fff;
+    min-height: 45px;
+    margin-bottom: 20px;
 }
 
-/* GoIndi specific CSS */
+.navbar .navbar-brand {
+    color: #fff;
+    text-shadow: none;
+    height: auto;
+}
+
+.navbar-container {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 
 .search-form {
     width: 300px;
@@ -89,4 +34,42 @@ body {
     z-index: 1050;
 }
 
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto; 
+}
 
+i {
+  font-size:16px;
+}
+
+.nav > li > a {
+  color:#787878;
+}
+
+
+
+/* count indicator near icons */
+.nav>li .count {
+  position: absolute;
+  bottom: 12px;
+  right: 6px;
+  font-size: 9px;
+  background: rgba(51,200,51,0.55);
+  color: rgba(255,255,255,0.9);
+  line-height: 1em;
+  padding: 2px 4px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+
+
+.list-unstyled li > ul > li {
+   margin-left:10px;
+   padding:8px;
+}

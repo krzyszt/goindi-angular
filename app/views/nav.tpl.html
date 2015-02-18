@@ -1,27 +1,48 @@
-<nav class="navbar navbar-inverse">
+<!--<nav class="navbar navbar-inverse">
     <div class="container-fluid">
         <div class="navbar-header">
-            <a class="navbar-brand" href="#">GoIndi <span class="badge">with Angular</span></a>
-        </div>
-        <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown">Admin<span class="caret"></span></a>
-                    <ul class="dropdown-menu" role="menu">
-                        <li><a ng-href="#/api/user">User</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown">CRM <span class="caret"></span></a>
-                    <ul class="dropdown-menu" role="menu">
-                        <li><a ng-href="#/api/contact">Contact</a></li>
-                        <li><a ng-href="#/api/customer">Customers</a></li>
-                    </ul>
-                </li>
-            </ul>
-<!--            <ul class="nav navbar-nav navbar-right">
-                <li><p class="navbar-text">Signed in as <a href="#" class="navbar-link">Demo User</a></p></li>
-            </ul>-->
+            <a class="navbar-brand" href="#">
+                <span class="glyphicon glyphicon-cloud-download"></span>
+                GoIndi <small> with Angular</small>
+            </a>
         </div>
     </div>
-</nav>
+</nav>-->
+
+<!--<div class="navbar navbar-default">
+    <div class="pull-left">
+        <a href="#" class="navbar-brand">
+            <span class="glyphicon glyphicon-signal"></span>
+            GoIndi <small> with Angular</small>
+        </a>
+    </div>
+</div>-->
+
+
+<div id="top-nav" class="navbar navbar-inverse navbar-static-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+          <span class="glyphicon glyphicon-signal"></span>
+          GoIndi <small> with Angular</small>
+      </a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        
+        <li class="dropdown">
+          <a class="dropdown-toggle" role="button" data-toggle="dropdown" href="#"><i class="glyphicon glyphicon-user"></i> Admin <span class="caret"></span></a>
+          <ul id="g-account-menu" class="dropdown-menu" role="menu">
+            <li><a href="#">My Profile</a></li>
+          </ul>
+        </li>
+        <li><a href="#"><i class="glyphicon glyphicon-lock"></i> Logout</a></li>
+      </ul>
+    </div>
+  </div><!-- /container -->
+</div>
